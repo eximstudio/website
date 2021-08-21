@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+  font-size: 17px;
+}
+body{
+  background:#111 !important;
+  margin: 0;
+  padding: 0;
+}
+form{
+  font-size: 17px;
+}
+label{
+  margin-left:-10px;
+}
+
+input[type=text],input[type=email]{
+  border-top: none;
+  font-size: 17px;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #4287f5;
+  transition: .5s ease;
+  margin-bottom: 15px;
+  background: #212121;
+  position:relative;
+  top:auto;
+  left:50%;
+  transform:translateX(-50%);
+  color:#fff;
+  opacity:.8;
+}
+input[type=text]:focus,input[type=email]:focus{
+  border-bottom: 2px solid #42f5b3;
+  outline: none;
+}
+.submin{
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 4px 7px;
+  cursor: pointer;
+  background:#212121;
+  opacity:.7;
+  position:relative;
+  top:auto;
+  left:50%;
+  transform:translateX(-50%);
+  margin-top:-5px;
+}
+.submin:disabled{
+  color: #969696;
+  border: 2px solid #969696;
+  cursor: not-allowed;
+  opacity:.5;
+}
+.box{
+  padding: 30px 50px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #212121;
+    color: #fff;
+    border-radius: 10px;
+    align-items: center;
+    font-family: abt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  font-size: 23px;
+  margin-left:-10px;
+}
+@media screen and (min-width: 768px){
+  h1{
+    font-size: 2erm;
+  }
+}

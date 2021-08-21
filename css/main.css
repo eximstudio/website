@@ -1,0 +1,173 @@
+@font-face {
+       font-family: eximfont;
+       src: url(../../fonts/Comfortaa-Regular.ttf);
+      }
+body {
+	margin: 0;
+	background-color: #111;
+	color: #fff;
+	font-family: eximfont;
+	font-size: 13px;
+	line-height: 24px;
+	overscroll-behavior: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+canvas {
+	display: block;
+}
+
+#info {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
+a, button, input, select {
+	pointer-events: auto;
+}
+
+.dg.ac {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 2 !important; /* TODO Solve this in HTML */
+}
+
+#overlay {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,0.7);
+}
+
+	#overlay button {
+		background: #ffffff;
+		border: 0;
+		color: #000000;
+		padding: 16px 20px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+#notSupported {
+	width: 50%;
+	margin: auto;
+	background-color: #f00;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+i:hover{
+	font-size:36px;
+	border: 1px solid #fff;
+	background:#fff;
+	text-decoration:none;
+	border-radius:100%;
+	color:#111;
+	padding:7px 7px 7px 7px;
+	position:fixed;
+	top:7%;
+	left:3%;
+	box-shadow: 2px 2px 5px #545454;
+}
+img{
+	position: fixed;
+	top: 20%;
+	left: 1%;
+}
+                                                    /*Loader*/
+                                                    /*Loader*/
+                                                    /*Loader*/
+                                                    /*Loader*/
+
+#loader {
+  transition:all 0.5s ease;
+  z-index:999;
+  width: 100%;
+  height: 100%;
+  background: #111;
+}
+#loadertext {
+  color: #fff;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 2.5em;
+  opacity: .5;
+  line-height: 40px;
+}
+.lds-ripple {
+  display: inline-block;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+#Credits{
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#Credits::-webkit-scrollbar {
+    display: none;
+}

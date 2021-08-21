@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+#Input {
+  background-image: url('searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  position: sticky;
+  top: 1px;
+  width: 100%;
+  margin-top: 2px;
+}
+#Input:focus{
+  border-bottom: 2px solid #1c6fff;
+  outline: none;
+  transition: .1s ease;
+}
+
+#UL li a {
+  border: 1px solid #3f3f3f;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 40px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  display: block
+}
+
+#UL li a:hover:not(.header) {
+  background-color: #111;
+  color:#fff;
+}
+h3,h1,h2{
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  #Input{
+    font-size: 11px;
+  }
+  #search{
+    width:100%;
+  }
+}
+
+#UL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#search{
+  width:50%;
+  position: absolute;
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}

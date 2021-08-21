@@ -1,0 +1,19 @@
+
+/* ---- particles.js container ---- */
+canvas {
+  height:350%;
+}
+
+#particles-js{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
