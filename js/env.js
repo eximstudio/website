@@ -1,7 +1,7 @@
 // @ts-check
 import * as THREE from "https://unpkg.com/three@0.131/build/three.module.js";
 import { OrbitControls } from "https://unpkg.com/three@0.131/examples/jsm/controls/OrbitControls.js";
-import { GLTFLoader } from "https://unpkg.com/three@0.131/examples/jsm/jsm/loaders/GLTFLoader";
+import { GLTFLoader } from "https://unpkg.com/three@0.131/examples/jsm/loaders/GLTFLoader";
 import { DRACOLoader } from "https://unpkg.com/three@0.131/examples/jsm/loaders/DRACOLoader";
 
 (() => {
