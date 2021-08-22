@@ -2,7 +2,8 @@
   font-family: jjo;
   src: url(../fonts/Quicksand-Regular.ttf);
 }
-html, body {
+html,
+body {
   position: relative;
   height: 100%;
 }
@@ -10,15 +11,14 @@ body {
   background: #fff;
   font-family: jjo;
   font-size: 14px;
-  color:#000;
+  color: #000;
   margin: 0;
   padding: 0;
 }
-                                          /*PREPARED OVER*/
-                                          /*PREPARED OVER*/
-                                              /*PREPARED OVER*/
-                                              /*PREPARED OVER*/
-
+/*PREPARED OVER*/
+/*PREPARED OVER*/
+/*PREPARED OVER*/
+/*PREPARED OVER*/
 
 .topnav {
   overflow: hidden;
@@ -38,7 +38,7 @@ body {
 .topnav a:hover {
   background-color: #fff;
   color: black;
-  border-bottom: 1px solid #fff;  
+  border-bottom: 1px solid #fff;
 }
 
 .topnav a.active {
@@ -47,20 +47,17 @@ body {
   background: #000;
 }
 
-
-
 .topnav .icon {
   display: none;
 }
 .swiper-container {
-
   width: 100%;
   height: 80%;
   background: #111;
 }
 .swiper-slide {
   font-size: 18px;
-  color:#E6E6E6;
+  color: #e6e6e6;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 60px;
@@ -87,25 +84,20 @@ body {
   line-height: 1.3;
   font-family: jjo;
 }
-.slide-link{
+.slide-link {
   text-decoration: none;
   color: #fff;
 }
 
-
-
-
-                                             /*Navigation OVER*/
-                                             /*Navigation OVER*/
-                                             /*Navigation OVER*/
-                                             /*Navigation OVER*/
-
-
-
-
+/*Navigation OVER*/
+/*Navigation OVER*/
+/*Navigation OVER*/
+/*Navigation OVER*/
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: left;
     display: block;
@@ -113,15 +105,18 @@ body {
   .swiper-container {
     height: 85%;
   }
-  .topnav{
-   background-color: #000;
+  .topnav {
+    background-color: #000;
   }
-  .topnav a.active{
- display:none;
- }
+  .topnav a.active {
+    display: none;
+  }
 }
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;z-index:2;}
+  .topnav.responsive {
+    position: relative;
+    z-index: 2;
+  }
   .topnav.responsive .icon {
     position: absolute;
     left: 0;
@@ -129,8 +124,8 @@ body {
     color: #000;
     background: #fff;
   }
-  .logo{
-    display:none;
+  .logo {
+    display: none;
   }
   .topnav.responsive a {
     float: none;
@@ -138,7 +133,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width: 1024px) {
   .swiper-container {
     height: 90%;
   }
@@ -150,15 +145,15 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #818181; 
+  background: #818181;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4e4e4e; 
+  background: #4e4e4e;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #2b2b2b; 
+  background: #2b2b2b;
 }

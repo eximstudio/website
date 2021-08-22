@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 #Input {
-  background-image: url('searchicon.png');
+  background-image: url("searchicon.png");
   background-position: 10px 12px;
   background-repeat: no-repeat;
   width: 100%;
@@ -18,10 +18,10 @@
   width: 100%;
   margin-top: 2px;
 }
-#Input:focus{
+#Input:focus {
   border-bottom: 2px solid #1c6fff;
   outline: none;
-  transition: .1s ease;
+  transition: 0.1s ease;
 }
 
 #UL li a {
@@ -31,24 +31,26 @@
   text-decoration: none;
   font-size: 18px;
   color: #fff;
-  display: block
+  display: block;
 }
 
 #UL li a:hover:not(.header) {
   background-color: #111;
-  color:#fff;
+  color: #fff;
 }
-h3,h1,h2{
+h3,
+h1,
+h2 {
   color: #fff;
   text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {
-  #Input{
+  #Input {
     font-size: 11px;
   }
-  #search{
-    width:100%;
+  #search {
+    width: 100%;
   }
 }
 
@@ -58,8 +60,8 @@ h3,h1,h2{
   margin: 0;
 }
 
-#search{
-  width:50%;
+#search {
+  width: 50%;
   position: absolute;
   top: auto;
   left: 50%;
