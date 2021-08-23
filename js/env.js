@@ -1,8 +1,8 @@
 // @ts-check
-import * as THREE from "https://unpkg.com/three@0.131/build/three.module.js";
-import { OrbitControls } from "https://unpkg.com/three@0.131/examples/jsm/controls/OrbitControls.js";
-import { GLTFLoader } from "https://unpkg.com/three@0.131/examples/jsm/loaders/GLTFLoader";
-import { DRACOLoader } from "https://unpkg.com/three@0.131/examples/jsm/loaders/DRACOLoader";
+import * as THREE from "https://cdn.skypack.dev/three";
+import { OrbitControls } from "https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js";
+import { GLTFLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js";
+import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/DRACOLoader.js";
 
 (() => {
   let canvas,
