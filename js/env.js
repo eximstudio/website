@@ -98,13 +98,8 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
     controls.update();
 
     renderer.render(scene, camera);
-    let delta = clock.getDelta();
 
-    if (mixer) {
-      console.log("hmm");
-
-      mixer.update(delta);
-    }
+    if (mixer) mixer.update(clock.getDelta());
 
     window.requestAnimationFrame(animate);
   };
