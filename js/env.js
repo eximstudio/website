@@ -11,7 +11,8 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
     renderer,
     animations = [],
     paused = false,
-    mixer;
+    mixer,
+    clock = new THREE.Clock();
 
   // Sizes
   const sizes = {
@@ -97,6 +98,13 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
     controls.update();
 
     renderer.render(scene, camera);
+    let delta = clock.getDelta();
+
+    if (mixer) {
+      console.log("hmm");
+
+      mixer.update(delta);
+    }
 
     window.requestAnimationFrame(animate);
   };
@@ -109,14 +117,15 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
     } else if (e.code === "Space") {
       animations.forEach((a) => {
         a.paused = !paused;
+        paused = !paused;
       });
     }
   });
 
   // loader
   const loader = new GLTFLoader();
-  const dracoLoader = new DRACOLoader();
-  loader.setDRACOLoader(dracoLoader);
+  //const dracoLoader = new DRACOLoader();
+  //loader.setDRACOLoader(dracoLoader);
 
   loader.load(canvas.dataset.url, function (gltf) {
     gltf.scene.scale.set(0.3, 0.3, 0.3);
@@ -127,6 +136,7 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
         let animation = mixer.clipAction(a);
         animations.push(animation);
         animation.play();
+        console.log(animation);
       });
     }
   });
