@@ -41,7 +41,7 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
   scene.add(camera);
 
   //Grid
-  let geometry = new THREE.PlaneGeometry(1000, 1000);
+  let geometry = new THREE.PlaneGeometry(70, 70);
   let material = new THREE.MeshPhongMaterial({
     color: 0x2b2b2b,
     depthWrite: false,
@@ -53,7 +53,7 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
   ground.receiveShadow = true;
   scene.add(ground);
 
-  let grid = new THREE.GridHelper(1000, 500, 0x000000, 0x000000);
+  let grid = new THREE.GridHelper(70, 70, 0x000000, 0x000000);
   grid.position.y = -3;
   // @ts-ignore
   grid.material.fog = false;
@@ -75,8 +75,7 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
 
   let controls = new OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true;
-  controls.dampingFactor = 0.05;
-  controls.maxDistance = 100;
+  controls.maxDistance = 80;
   controls.minDistance = 2;
   controls.autoRotate = true;
 
