@@ -77,7 +77,7 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
   controls.enableDamping = true;
   controls.dampingFactor = 0.05;
   controls.maxDistance = 100;
-  controls.minDistance = 4.5;
+  controls.minDistance = 2;
   controls.autoRotate = true;
 
   window.addEventListener("resize", () => {
@@ -119,8 +119,8 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
 
   // loader
   const loader = new GLTFLoader();
-  //const dracoLoader = new DRACOLoader();
-  //loader.setDRACOLoader(dracoLoader);
+  const dracoLoader = new DRACOLoader();
+  loader.setDRACOLoader(dracoLoader);
 
   loader.load(canvas.dataset.url, function (gltf) {
     gltf.scene.scale.set(0.3, 0.3, 0.3);
