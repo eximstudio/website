@@ -93,18 +93,6 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   });
 
-  const animate = () => {
-    controls.update();
-
-    renderer.render(scene, camera);
-
-    if (mixer) mixer.update(clock.getDelta());
-
-    window.requestAnimationFrame(animate);
-  };
-
-  animate();
-
   window.addEventListener("keydown", (e) => {
     if (e.code === "Escape") {
       controls.autoRotate = !controls.autoRotate;
@@ -116,22 +104,62 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
     }
   });
 
-  // loader
-  const loader = new GLTFLoader();
-  const dracoLoader = new DRACOLoader();
-  loader.setDRACOLoader(dracoLoader);
+  // Loader animation
 
-  loader.load(canvas.dataset.url, function (gltf) {
+  class Loader {
+    constructor() {
+      this.woking = true;
+      this.geo = new THREE.BoxGeometry(1, 1, 1);
+      this.material = new THREE.MeshPhongMaterial({ color: 0xffffff });
+      this.mesh = new THREE.Mesh(this.geo, this.material);
+      scene.add(this.mesh);
+    }
+
+    animate() {
+      if (!this.woking) return;
+      this.mesh.rotation.x += 0.01;
+      this.mesh.rotation.y += 0.01;
+    }
+
+    dispose() {
+      this.working = false;
+      scene.remove(this.mesh);
+      this.geo.dispose();
+      this.material.dispose();
+    }
+  }
+
+  const loader = new Loader();
+
+  // loader
+  const GLTFloader = new GLTFLoader();
+  const dracoLoader = new DRACOLoader();
+  GLTFloader.setDRACOLoader(dracoLoader);
+
+  GLTFloader.load(canvas.dataset.url, function (gltf) {
     gltf.scene.scale.set(0.3, 0.3, 0.3);
     scene.add(gltf.scene);
+    loader.dispose();
     if (canvas.dataset.animate) {
       mixer = new THREE.AnimationMixer(gltf.scene);
       gltf.animations.forEach((a) => {
         let animation = mixer.clipAction(a);
         animations.push(animation);
         animation.play();
-        console.log(animation);
       });
     }
   });
+
+  const animate = () => {
+    controls.update();
+
+    renderer.render(scene, camera);
+
+    if (mixer) mixer.update(clock.getDelta());
+
+    loader.animate();
+
+    window.requestAnimationFrame(animate);
+  };
+  animate();
 })();
