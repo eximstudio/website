@@ -3,6 +3,9 @@ import * as THREE from "https://cdn.skypack.dev/three";
 import { OrbitControls } from "https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js";
 import { GLTFLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js";
 import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/DRACOLoader.js";
+// import Icon from "./icon.js";
+
+// Icon();
 
 (() => {
   let canvas,
@@ -103,8 +106,10 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
       });
     } else if (e.code === "Numpad0") {
       document.getElementById("description").style.right = "0%";
+      document.getElementById("description").style.opacity = "1";
     } else if (e.code === "Numpad1") {
-      document.getElementById("description").style.right = "-100%";
+      document.getElementById("description").style.right = "-51%";
+      document.getElementById("description").style.opacity = "0.1";
     }
   });
 
