@@ -101,6 +101,10 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
         a.paused = !paused;
         paused = !paused;
       });
+    } else if (e.code === "Numpad0") {
+      document.getElementById("description").style.right = "0%";
+    } else if (e.code === "Numpad1") {
+      document.getElementById("description").style.right = "-100%";
     }
   });
 
