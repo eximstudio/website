@@ -1,6 +1,12 @@
 #Subdomain
 beta
 
+#meta
+sitemap.xml
+robots.txt
+pinterest-daebd.html
+google8c70041bccf18478.html
+
 # Logs
 logs
 *.log
