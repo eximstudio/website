@@ -3,9 +3,9 @@ import * as THREE from "https://cdn.skypack.dev/three";
 import { OrbitControls } from "https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js";
 import { GLTFLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/GLTFLoader.js";
 import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/DRACOLoader.js";
-// import Icon from "./icon.js";
+import { Icon, opened, handleToggle } from "./doc.js";
 
-// Icon();
+Icon();
 
 (() => {
   let canvas,
@@ -111,6 +111,15 @@ import { DRACOLoader } from "https://cdn.skypack.dev/three/examples/jsm/loaders/
       document.getElementById("description").style.right = "-51%";
       document.getElementById("description").style.opacity = "0.1";
     }
+  });
+
+  canvas.addEventListener("click", (e) => {
+    if (opened) return handleToggle();
+    return;
+  });
+  canvas.addEventListener("touchstart", (e) => {
+    if (opened) return handleToggle();
+    return;
   });
 
   // Loader animation
