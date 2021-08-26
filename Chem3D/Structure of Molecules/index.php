@@ -38,7 +38,7 @@
         <li><a href="ECC">End-Centered Cubic </a></li>
         <li><a href="EdgeCC">Edge-Centered Cubic </a></li>
         <li><a href="Hex">Hexagonal Unit Cell </a></li>
-        <!-- <li><a href="NaCl">Sodium Chloride (NaCl) </a></li> -->
+        <li><a href="NaCl">Sodium Chloride (NaCl) </a></li>
         <li><a href="ZnS">Zincblende (ZnS)  </a></li>
         <li><a href="CsCl">Cesium chloride (CsCl) </a></li>
       	<li><a href="CaF2">Calcium fluoride (CaF2) </a></li>

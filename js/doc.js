@@ -26,10 +26,14 @@ async function Icon() {
   tooltip.style.pointerEvents = "none";
   icon.classList.add("close");
   icon.classList.add("icon");
+  const timer = setTimeout(() => toggletip(false), 2000);
   if (!doc) return;
   doc.prepend(icon);
   icon.addEventListener("click", handleToggle);
-  icon.addEventListener("mouseover", () => toggletip(true));
+  icon.addEventListener("mouseover", () => {
+    toggletip(true);
+    clearTimeout(timer);
+  });
   icon.addEventListener("mouseout", () => toggletip(false));
 }
 
