@@ -98,19 +98,18 @@ Icon();
 
   window.addEventListener("keydown", (e) => {
     if (e.code === "Escape") {
+      if (opened) {
+        handleToggle();
+        return;
+      }
       controls.autoRotate = !controls.autoRotate;
     } else if (e.code === "Space") {
       animations.forEach((a) => {
         a.paused = !paused;
         paused = !paused;
       });
-    } else if (e.code === "Numpad0") {
-      document.getElementById("description").style.right = "0%";
-      document.getElementById("description").style.opacity = "1";
-    } else if (e.code === "Numpad1") {
-      document.getElementById("description").style.right = "-51%";
-      document.getElementById("description").style.opacity = "0.1";
     }
+    return;
   });
 
   canvas.addEventListener("click", (e) => {
