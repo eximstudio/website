@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+  Options -MultiViews
+  RewriteBase /
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  # MyApp here is the folder of my app, the url you would use to access it
+  RewriteRule ^\/(.+)$ /?fw=$1 [R,QSA,L]
+</IfModule>
