@@ -1,0 +1,6 @@
+  Options -MultiViews
+  RewriteBase /
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)$ /?fw=$1 [R,QSA,L]
