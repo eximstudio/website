@@ -1,6 +1,11 @@
-  Options -MultiViews
-  RewriteBase /
+<IfModule mod_rewrite.c>
+
   RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^(.+)$ /?fw=$1 [R,QSA,L]
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
+
+</IfModule>
