@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
+import Search from "./components/Search";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+                    <Route path="/search">
+            <Search />
           </Route>
           <Route path="/">
             <Home />

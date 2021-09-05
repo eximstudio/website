@@ -1,8 +1,11 @@
 export default function Search() {
   return (
-    <div className="search-bar">
-      <input className="search-bar__input" type="text" placeholder="Search" />
-      <button className="search-bar__button">Search</button>
-    </div>
+    //create a big search bar with black background tailwind
+      <input
+        className="w-3/6 p-2 text-black outline-none border-b-2 border-gray-600 h-20 text-2xl font-sans focus:border-collapse"
+      type="text"
+      autoFocus
+        placeholder="Search"
+      />
   );
 }
