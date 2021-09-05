@@ -1,1 +1,66 @@
-{}
+{
+  "Bent (Tetrahedral with 2 lone pair).glb": {
+    "title": "Bent (Tetrahedral with 2 lone pair)",
+    "description": ""
+  },
+  "chem stru(pentagonal bi piramidal).glb": {
+    "title": "chem stru(pentagonal bi piramidal)",
+    "description": ""
+  },
+  "chem stru(tbp).glb": {
+    "title": "chem stru(tbp)",
+    "description": ""
+  },
+  "chem stru(trigonal planar) (1).glb": {
+    "title": "chem stru(trigonal planar) (1)",
+    "description": ""
+  },
+  "chem stru_linear_1 lp.glb": {
+    "title": "chem stru_linear_1 lp",
+    "description": ""
+  },
+  "chem stru_octahedral_square planar_2lp.glb": {
+    "title": "chem stru_octahedral_square planar_2lp",
+    "description": ""
+  },
+  "chem stru_octahedral_square pyramidal_1lp.glb": {
+    "title": "chem stru_octahedral_square pyramidal_1lp",
+    "description": ""
+  },
+  "chem stru_pbp_distorted octahedral_1lp.glb": {
+    "title": "chem stru_pbp_distorted octahedral_1lp",
+    "description": ""
+  },
+  "chem stru_tbp_linear_3lp.glb": {
+    "title": "chem stru_tbp_linear_3lp",
+    "description": ""
+  },
+  "chem stru_tbp_see-saw_1lp.glb": {
+    "title": "chem stru_tbp_see-saw_1lp",
+    "description": ""
+  },
+  "chem stru_tbp_t shape_2lp.glb": {
+    "title": "chem stru_tbp_t shape_2lp",
+    "description": ""
+  },
+  "linear.glb": {
+    "title": "linear",
+    "description": ""
+  },
+  "octa.glb": {
+    "title": "octa",
+    "description": ""
+  },
+  "Tetrahedral.glb": {
+    "title": "Tetrahedral",
+    "description": ""
+  },
+  "trigonal planar.glb": {
+    "title": "trigonal planar",
+    "description": ""
+  },
+  "trigonal_planar_bent_1lp.glb": {
+    "title": "trigonal_planar_bent_1lp",
+    "description": ""
+  }
+}
