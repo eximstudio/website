@@ -1,0 +1,42 @@
+{
+  "BCC.glb": {
+    "title": "BCC",
+    "description": ""
+  },
+  "CaF2.glb": {
+    "title": "CaF2",
+    "description": ""
+  },
+  "CsCl.glb": {
+    "title": "CsCl",
+    "description": ""
+  },
+  "ECC.glb": {
+    "title": "ECC",
+    "description": ""
+  },
+  "EdgeCC.glb": {
+    "title": "EdgeCC",
+    "description": ""
+  },
+  "FCC.glb": {
+    "title": "FCC",
+    "description": ""
+  },
+  "Hex.glb": {
+    "title": "Hex",
+    "description": ""
+  },
+  "Nacl.glb": {
+    "title": "Nacl",
+    "description": ""
+  },
+  "SC.glb": {
+    "title": "SC",
+    "description": ""
+  },
+  "ZnS.glb": {
+    "title": "ZnS",
+    "description": ""
+  }
+}

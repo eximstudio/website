@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-                    <Route path="/search">
+          <Route path="/search">
             <Search />
           </Route>
           <Route path="/">
