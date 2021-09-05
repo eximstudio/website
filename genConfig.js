@@ -1,22 +1,28 @@
 const fs = require("fs");
 const path = require("path");
 
+const data = [];
+
 function manageDir(dir) {
-  const data = {};
   fs.readdirSync(dir, {
     withFileTypes: true,
   }).forEach((file) => {
     if (file.isDirectory()) return manageDir(path.join(dir, file.name));
-    if (
-      ["index.json", "config.json"].includes(file.name) ||
-      file.name.endsWith(".tsx")
-    )
-      return;
-    data[file.name] = {
-      title: file.name.split(".")[0],
-      description: "",
-    };
+    if (!["index.json"].includes(file.name)) return;
+    Object.entries(require(path.join(dir, file.name))).forEach(
+      ([key, value]) => {
+        data.push({
+          title: value.title,
+          description: value.description,
+          url: path.relative(process.cwd(), dir) + "/" + key,
+          tags: [...dir.split("/").slice(4)],
+        });
+      }
+    );
   });
-  fs.writeFileSync(path.join(dir, "index.json"), JSON.stringify(data, null, 2));
 }
 manageDir(path.join(__dirname, "models"));
+fs.writeFileSync(
+  path.join("models", "config.json"),
+  JSON.stringify(data, null, 2)
+);

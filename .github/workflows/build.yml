@@ -1,4 +1,4 @@
-name: Dist
+name: Build
 
 on:
   push:
@@ -19,6 +19,9 @@ jobs:
 
       - name: Install dependencies
         run: yarn
+
+      - name: Genarate Config
+        run: node genConfig.js
 
       - name: Build project
         run: yarn build

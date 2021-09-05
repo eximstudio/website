@@ -1,0 +1,383 @@
+[
+  {
+    "title": "Bent (Tetrahedral with 2 lone pair)",
+    "description": "",
+    "url": "models/chem3d/geometry/Bent (Tetrahedral with 2 lone pair).glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru(pentagonal bi piramidal)",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru(pentagonal bi piramidal).glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru(tbp)",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru(tbp).glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru(trigonal planar) (1)",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru(trigonal planar) (1).glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru_linear_1 lp",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru_linear_1 lp.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru_octahedral_square planar_2lp",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru_octahedral_square planar_2lp.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru_octahedral_square pyramidal_1lp",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru_octahedral_square pyramidal_1lp.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru_pbp_distorted octahedral_1lp",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru_pbp_distorted octahedral_1lp.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru_tbp_linear_3lp",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru_tbp_linear_3lp.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru_tbp_see-saw_1lp",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru_tbp_see-saw_1lp.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "chem stru_tbp_t shape_2lp",
+    "description": "",
+    "url": "models/chem3d/geometry/chem stru_tbp_t shape_2lp.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "linear",
+    "description": "",
+    "url": "models/chem3d/geometry/linear.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "octa",
+    "description": "",
+    "url": "models/chem3d/geometry/octa.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "Tetrahedral",
+    "description": "",
+    "url": "models/chem3d/geometry/Tetrahedral.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "trigonal planar",
+    "description": "",
+    "url": "models/chem3d/geometry/trigonal planar.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "trigonal_planar_bent_1lp",
+    "description": "",
+    "url": "models/chem3d/geometry/trigonal_planar_bent_1lp.glb",
+    "tags": [
+      "chem3d",
+      "geometry"
+    ]
+  },
+  {
+    "title": "eclipsed ",
+    "description": "",
+    "url": "models/chem3d/organic/eclipsed and staggerd/eclipsed .gltf",
+    "tags": [
+      "chem3d",
+      "organic",
+      "eclipsed and staggerd"
+    ]
+  },
+  {
+    "title": "staggered",
+    "description": "",
+    "url": "models/chem3d/organic/eclipsed and staggerd/staggered.gltf",
+    "tags": [
+      "chem3d",
+      "organic",
+      "eclipsed and staggerd"
+    ]
+  },
+  {
+    "title": "eclipsed ",
+    "description": "",
+    "url": "models/chem3d/organic/eclipsed .glb",
+    "tags": [
+      "chem3d",
+      "organic"
+    ]
+  },
+  {
+    "title": "nueclophilic sabstitution reaction  SN1",
+    "description": "",
+    "url": "models/chem3d/organic/nueclophilic sabstitution reaction  SN1.glb",
+    "tags": [
+      "chem3d",
+      "organic"
+    ]
+  },
+  {
+    "title": "nueclophilic sabstitution reaction  SN2",
+    "description": "",
+    "url": "models/chem3d/organic/nueclophilic sabstitution reaction  SN2.glb",
+    "tags": [
+      "chem3d",
+      "organic"
+    ]
+  },
+  {
+    "title": "staggered",
+    "description": "",
+    "url": "models/chem3d/organic/staggered.glb",
+    "tags": [
+      "chem3d",
+      "organic"
+    ]
+  },
+  {
+    "title": "SN1",
+    "description": "",
+    "url": "models/chem3d/organic/reactions/SN1.gltf",
+    "tags": [
+      "chem3d",
+      "organic",
+      "reactions"
+    ]
+  },
+  {
+    "title": "SN2",
+    "description": "",
+    "url": "models/chem3d/organic/reactions/SN2.gltf",
+    "tags": [
+      "chem3d",
+      "organic",
+      "reactions"
+    ]
+  },
+  {
+    "title": "1-D",
+    "description": "",
+    "url": "models/chem3d/packaging/1-D.glb",
+    "tags": [
+      "chem3d",
+      "packaging"
+    ]
+  },
+  {
+    "title": "2-D[AAAA(square packaging)]",
+    "description": "",
+    "url": "models/chem3d/packaging/2-D[AAAA(square packaging)].glb",
+    "tags": [
+      "chem3d",
+      "packaging"
+    ]
+  },
+  {
+    "title": "2-D[ABAB(square packaging)] ",
+    "description": "",
+    "url": "models/chem3d/packaging/2-D[ABAB(square packaging)] .glb",
+    "tags": [
+      "chem3d",
+      "packaging"
+    ]
+  },
+  {
+    "title": "3-D[hexagonal(ABA)] extended ",
+    "description": "",
+    "url": "models/chem3d/packaging/3-D[hexagonal(ABA)] extended .glb",
+    "tags": [
+      "chem3d",
+      "packaging"
+    ]
+  },
+  {
+    "title": "3-D[hexagonal(ABA)]",
+    "description": "",
+    "url": "models/chem3d/packaging/3-D[hexagonal(ABA)].glb",
+    "tags": [
+      "chem3d",
+      "packaging"
+    ]
+  },
+  {
+    "title": "3-D[hexagonal(ABCABC)] extended ",
+    "description": "",
+    "url": "models/chem3d/packaging/3-D[hexagonal(ABCABC)] extended .glb",
+    "tags": [
+      "chem3d",
+      "packaging"
+    ]
+  },
+  {
+    "title": "3-D[hexagonal(ABCABC)]",
+    "description": "",
+    "url": "models/chem3d/packaging/3-D[hexagonal(ABCABC)].glb",
+    "tags": [
+      "chem3d",
+      "packaging"
+    ]
+  },
+  {
+    "title": "BCC",
+    "description": "",
+    "url": "models/chem3d/structure of solids/BCC.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "CaF2",
+    "description": "",
+    "url": "models/chem3d/structure of solids/CaF2.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "CsCl",
+    "description": "",
+    "url": "models/chem3d/structure of solids/CsCl.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "ECC",
+    "description": "",
+    "url": "models/chem3d/structure of solids/ECC.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "EdgeCC",
+    "description": "",
+    "url": "models/chem3d/structure of solids/EdgeCC.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "FCC",
+    "description": "",
+    "url": "models/chem3d/structure of solids/FCC.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "Hex",
+    "description": "",
+    "url": "models/chem3d/structure of solids/Hex.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "Nacl",
+    "description": "",
+    "url": "models/chem3d/structure of solids/Nacl.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "SC",
+    "description": "",
+    "url": "models/chem3d/structure of solids/SC.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "ZnS",
+    "description": "",
+    "url": "models/chem3d/structure of solids/ZnS.glb",
+    "tags": [
+      "chem3d",
+      "structure of solids"
+    ]
+  },
+  {
+    "title": "collision ",
+    "description": "",
+    "url": "models/physx/collision .glb",
+    "tags": [
+      "physx"
+    ]
+  }
+]
