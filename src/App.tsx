@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Nav />
 
-      <div className="App">
+      <div className="App dark:bg-gray-900 h-screen">
         <Switch>
           <Route path="/about">
             <About />
