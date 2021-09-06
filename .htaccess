@@ -1,4 +1,5 @@
 RewriteEngine on
 
 RewriteCond %{REQUEST_URI} !^/build
+RewriteCond %{REQUEST_URI} !^/models
 RewriteRule ^(.*)$ /build/$1 [NC,L]
