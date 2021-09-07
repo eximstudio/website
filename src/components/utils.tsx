@@ -70,16 +70,19 @@ function ShowError({
   );
 }
 
-async function shake() {
+async function shake(element?: HTMLElement): Promise<void> {
+  if (element) {
+    if (!element.classList.contains("shake")) return;
+  }
   for (let i of [
-    "translate(-5%, 5%)",
-    "translate(-5%, -5%)",
-    "translate(5%, 5%)",
-    "translate(5%, -5%)",
-    "translate(-5%, 5%)",
-    "translate(-5%, -5%)",
-    "translate(5%, 5%)",
-    "translate(5%, -5%)",
+    "translate(-2.5%, 2.5%)",
+    "translate(-2.5%, -2.5%)",
+    "translate(2.5%, 2.5%)",
+    "translate(2.5%, -2.5%)",
+    "translate(-2.5%, 0%)",
+    "translate(0%, -2.5%)",
+    "translate(0%, 2.5%)",
+    "translate(2.5%, 0%)",
   ]) {
     await new Promise((resolve) => setTimeout(resolve, 80));
     document.getElementById("root")!.style.transform = i;

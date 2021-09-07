@@ -13,6 +13,8 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "autoprefixer": "^9",
+    "overlayscrollbars": "^1.13.1",
+    "overlayscrollbars-react": "^0.2.3",
     "postcss": "^7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -48,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@types/overlayscrollbars": "^1.12.1",
     "@types/react-router-dom": "^5.1.8"
   }
 }

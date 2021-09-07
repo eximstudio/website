@@ -44,24 +44,26 @@ export default function Nav() {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
           <NavLink
-            onClick={() => shake()}
+            onClick={(e) => shake(e.target as HTMLElement)}
             to="/"
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            activeClassName="text-white"
+            activeClassName="text-white shake"
             exact
           >
             Home
           </NavLink>
           <NavLink
+            onClick={(e) => shake(e.target as HTMLElement)}
             to="/contact"
-            activeClassName="text-white"
+            activeClassName="text-white shake"
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
           >
             Contact
           </NavLink>
           <NavLink
+            onClick={(e) => shake(e.target as HTMLElement)}
             to="/about"
-            activeClassName="text-white"
+            activeClassName="text-white shake"
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 "
           >
             About
