@@ -75,21 +75,21 @@ async function shake(element?: HTMLElement): Promise<void> {
     if (!element.classList.contains("shake")) return;
   }
   for (let i of [
-    "translate(-2.5%, 2.5%)",
     "translate(-2.5%, -2.5%)",
     "translate(2.5%, 2.5%)",
+    "translate(-2.5%, 2.5%)",
     "translate(2.5%, -2.5%)",
     "translate(-2.5%, 0%)",
     "translate(0%, -2.5%)",
-    "translate(0%, 2.5%)",
     "translate(2.5%, 0%)",
+    "translate(0%, 2.5%)",
   ]) {
-    await new Promise((resolve) => setTimeout(resolve, 80));
+    await new Promise((resolve) => setTimeout(resolve, 50));
     document.getElementById("root")!.style.transform = i;
   }
   setTimeout(() => {
     document.getElementById("root")!.style.transform = "translate(0, 0%)";
-  }, 80);
+  }, 50);
 }
 
 export type { Results };

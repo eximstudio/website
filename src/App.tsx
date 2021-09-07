@@ -22,7 +22,7 @@ function App() {
           },
         }}
       >
-        <div className="App dark:bg-gray-900 min-h-screen">
+        <div className="App bg-white dark:bg-gray-900 min-h-screen">
           <Nav />
           <Switch>
             <Route path="/about">
