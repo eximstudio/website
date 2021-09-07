@@ -33,3 +33,5 @@ jobs:
           file_pattern: "."
           skip_dirty_check: false
           skip_fetch: false
+          commit_user_name: Gm
+          commit_user_email: gmbodhi@users.noreply.github.com
