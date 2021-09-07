@@ -74,6 +74,7 @@ async function shake(element?: HTMLElement): Promise<void> {
   if (element) {
     if (!element.classList.contains("shake")) return;
   }
+  navigator.vibrate([100, 100, 100, 100, 100, 100, 100, 100]);
   for (let i of [
     "translate(-2.5%, -2.5%)",
     "translate(2.5%, 2.5%)",
@@ -84,7 +85,6 @@ async function shake(element?: HTMLElement): Promise<void> {
     "translate(2.5%, 0%)",
     "translate(0%, 2.5%)",
   ]) {
-    navigator.vibrate(50);
     await new Promise((resolve) => setTimeout(resolve, 50));
     document.getElementById("root")!.style.transform = i;
   }
