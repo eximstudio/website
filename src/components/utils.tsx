@@ -75,7 +75,7 @@ async function shake(element?: HTMLElement): Promise<void> {
     if (!element.classList.contains("shake")) return;
   }
   navigator.vibrate([100, 100, 100, 100, 100, 100, 100, 100]);
-  for (let i of [
+  for (const i of [
     "translate(-2.5%, -2.5%)",
     "translate(2.5%, 2.5%)",
     "translate(-2.5%, 2.5%)",

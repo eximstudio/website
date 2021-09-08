@@ -29,6 +29,7 @@
     "dev": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "lint": "eslint src",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -51,6 +52,10 @@
   },
   "devDependencies": {
     "@types/overlayscrollbars": "^1.12.1",
-    "@types/react-router-dom": "^5.1.8"
+    "@types/react-router-dom": "^5.1.8",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.1"
   }
 }
