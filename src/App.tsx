@@ -6,23 +6,13 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Search from "./components/Search";
-import { OverlayScrollbarsComponent } from "overlayscrollbars-react";
+import PerfectScrollbar from "react-perfect-scrollbar";
 
 function App() {
   return (
     <Router>
-      <OverlayScrollbarsComponent
-        options={{
-          // paddingAbsolute: true
-          sizeAutoCapable: true,
-          scrollbars: {
-            visibility: "visible",
-            clickScrolling: true,
-            autoHide: "never",
-          },
-        }}
-      >
-        <div className="App bg-white dark:bg-gray-900 min-h-screen">
+      <PerfectScrollbar options={{ wheelSpeed: 0.5 }}>
+        <div className="App bg-white dark:bg-gray-900 ">
           <Nav />
           <Switch>
             <Route path="/about">
@@ -39,7 +29,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </OverlayScrollbarsComponent>
+      </PerfectScrollbar>
     </Router>
   );
 }

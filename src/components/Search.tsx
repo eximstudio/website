@@ -5,7 +5,7 @@ import {
   useEffect,
   useState,
 } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 import { Results, resultsOutput, ShowError } from "./utils";
 
 let data: null | Results[] = null,
@@ -42,6 +42,7 @@ async function filter(
 }
 
 export default function Search(): ReactElement {
+  const location = useLocation();
   const [isShown, setIsShown] = useState(false);
   const [error, setMessage] = useState("");
   function setError(message: string): void {
@@ -78,12 +79,12 @@ export default function Search(): ReactElement {
       filter(undefined, setError as () => void).then((res) =>
         setSearch(<>{res}</>)
       );
-  }, [query]);
+  }, [query, location.search]);
 
   return (
     <div>
       <input
-        className="w-3/6 p-2 text-black outline-none border-b-2 border-gray-600 h-20 text-2xl font-sans focus:border-collapse"
+        className="w-3/6 p-2 text-black outline-none border-b-2 border-gray-600 h-20 text-2xl font-sans focus:border-collapse mt-4"
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
