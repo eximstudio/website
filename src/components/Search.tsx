@@ -9,8 +9,9 @@ import { useHistory } from "react-router-dom";
 import { Results, resultsOutput, ShowError } from "./utils";
 
 let data: null | Results[] = null,
-  search = new Map<string, number[]>(),
   lastError: any;
+
+const search = new Map<string, number[]>();
 
 async function fetchData(
   throwError: Dispatch<SetStateAction<string>>
