@@ -19,6 +19,9 @@ jobs:
 
       - name: Install dependencies
         run: yarn
+        
+      - name: Run Lint
+        run: yarn lint
 
       - name: Genarate Config
         run: node genConfig.js
