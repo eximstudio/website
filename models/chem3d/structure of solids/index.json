@@ -1,42 +1,42 @@
 {
   "BCC.glb": {
-    "title": "BCC",
-    "description": ""
+    "title": "Body Centered Cubic",
+    "description": "Atoms/ions are present at the corner and body center. \n Therfore Rank of Unit cell(Z) is 2. "
   },
   "CaF2.glb": {
-    "title": "CaF2",
-    "description": ""
+    "title": "Calcium fluoride(CaF<sub>2<sub>)",
+    "description": "Also known as fluorite structure, \n Ca<sup>2+</sup> occupies Face centered cubic/Cubic closed pack lattice. \n F<sup>-</sup> occupies Tetrahedral voids. \n Therefore, in a Unit cell there are 4 ions of Ca<sup>2+</sup> and 8 ions of F<sup>-</sup> \n So, in total there are 4 molecules formed of CaF<sub>2</sub>. "
   },
   "CsCl.glb": {
     "title": "CsCl",
-    "description": ""
+    "description": "Cs<sup>+</sup> occupies Cubical voids. \n Cl<sup>-<sup> occupies Simple cubis lattice. \n Therefore there are only one ion each in Unit Cell. Hence only 1 molecule of CsCl is formed per unit cell."
   },
   "ECC.glb": {
-    "title": "ECC",
-    "description": ""
+    "title": "End Centered Cubic",
+    "description": "Atoms/Ions are present at the corners and center of alternate faces. \n Therfore, Rank of Unit cell(Z) is 2. "
   },
   "EdgeCC.glb": {
     "title": "EdgeCC",
-    "description": ""
+    "description": "Atoms/Ions are present at the corners and Center of each Edges. \n Therefore, Rank of Unit cell(Z) is 7."
   },
   "FCC.glb": {
     "title": "FCC",
-    "description": ""
+    "description": "Atoms/Ions are present at each corners and center of each Faces. \n Therefore Rank of Unit cell(Z) is 4."
   },
   "Hex.glb": {
-    "title": "Hex",
-    "description": ""
+    "title": "Hexagonal closed packed",
+    "description": "Atoms/Ions are present at each corners, opposite Hexagon Face and 3 Atoms/ions at the body center. \n Therfore, Rank of the Unit cell is 6"
   },
   "Nacl.glb": {
     "title": "Nacl",
-    "description": ""
+    "description": "Na<sup>+</sup> occupies octahedral voids. \n Cl<sup>-</sup> occupies Cubic closed packed/Face centerd cubic lattice. \n So, there are 4 ions each in one Unit cell. Hence 4 molecules of Nacl is formed per Unit cell."
   },
   "SC.glb": {
     "title": "SC",
-    "description": ""
+    "description": "Atoms/Ions are only present at each Corners of teh unit cell. \n Therefore, Rank of Unit cell is 1. "
   },
   "ZnS.glb": {
     "title": "ZnS",
-    "description": ""
+    "description": "Zn<sup>2+</sup> occupies half of tetrahedral voids. \n S<sup>2-</sup> occupies Face centered cubic/Cubic closed packed lattice. \n Therefore, there are 4 ions each placed in one Unit Cell. \n Hence, forms a total of 4 molecules of ZnS per Unit cell."
   }
 }
