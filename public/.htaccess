@@ -9,3 +9,7 @@
   RewriteRule . /index.html [L]
 
 </IfModule>
+
+<FilesMatch "\.(glb|gltf)$">
+    Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
