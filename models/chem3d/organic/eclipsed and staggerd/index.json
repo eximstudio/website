@@ -1,10 +1,10 @@
 {
   "eclipsed .gltf": {
-    "title": "eclipsed ",
-    "description": ""
+    "title": "Eclipsed ",
+    "description": "It is an Saw-Horse projection. \n Also known as conformational isomers. \n Dihedral angle is 0 degree. which makes it less stable than Staggerd form, because of more replusion between the molecule."
   },
   "staggered.gltf": {
-    "title": "staggered",
-    "description": ""
+    "title": "Staggered",
+    "description": "It is an Saw-Horse projection.\n Also known as conformational isomers. \n Dihedral angle is 60 degree. which makes it more stable than Ecipsed form, because of less replusion betweem the molecule."
   }
 }
