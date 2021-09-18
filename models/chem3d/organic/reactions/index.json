@@ -1,10 +1,10 @@
 {
   "SN1.gltf": {
     "title": "SN1",
-    "description": ""
+    "description": "-<p style:'color:pink;'>Pink- Nucleophile</p>\n -<p style:'color:Green;'>Green- Leaving Group</p>\n -SN<sub>1</sub> reactions is Unimolecular and first order reaction. Hence, the rate only depends upon the conc of teh substrate. \n -It proceeds through an intermediate carbocation.\n -It involves two step mechanism, \n -The first step includes the formation of carbocation and is slow step, therefore determines the rate of the reaction. \n -The second step involves the attack of Nucleophile on the substrate. \n -If the compound is Chiral then the proccess of racemization is accompanied.    "
   },
   "SN2.gltf": {
     "title": "SN2",
-    "description": ""
+    "description": "-<p style:'color:pink;'>Pink- Leaving Group</p>\n -<p style:'color:Red;'>Red- Nucleophile or Hydroxy ion</p>\n -SN<sub>2</sub> reactions is bimolecular and second order reaction. Therefore, the ate of teh reaction depends on both nueclophile and the substrate. \n -It proceeds through the formation of transition state. \n -It involves only one step in its mechanism. \n- Therefore no carbocation is formed. \n -If the molecule is chiral it gives inversion of sterochemistry at teh reaction center. \n -Steric effect is particularly important in SN<sub>2</sub> reaction. "
   }
 }
