@@ -1,66 +1,62 @@
 {
   "Bent (Tetrahedral with 2 lone pair).glb": {
-    "title": "Bent (Tetrahedral with 2 lone pair)",
-    "description": ""
+    "title": "Bent (Tetrahedral with two lone pair)",
+    "description": "It is an Sp<sup>3</sup> hybridised molecule. \n Has two lone pairs and Bonding groups each. \n Steric number:- 4. \n Makes an angle less than 109.5 degree(~105). \n Example - H<sub>2</sub>O"
   },
   "chem stru(pentagonal bi piramidal).glb": {
-    "title": "chem stru(pentagonal bi piramidal)",
-    "description": ""
+    "title": "Pentagonal Bipyramidal",
+    "description": "It is an Sp<sup>3</sup>d<sup>3</sup> hybridised molecule. \n Steric Number:- 7 \n Makes an angle of 72 degrees with equtorial bonds and 90 degree with Axial bonds. \n Example - IF<sub>7</sub>"
   },
   "chem stru(tbp).glb": {
-    "title": "chem stru(tbp)",
-    "description": ""
+    "title": "Trigonal Bipyramidal",
+    "description": "It is an Sp<sup>3</sup>d hybridised molecule.\n Steric Number - 5 \n Has two types of bonds Equatorial and Axial bond.\n Bond length of Axial bonds is greater than Equatorial bonds. \n Bond Angle between Axial bond is 180 degree, where as 120 degree for equtorial bonds. Axial and Equatorial bonds are perpendicular to each other.\n Steric Number:- 5\n Example - PCl<sub>5</sub>. "
   },
   "chem stru(trigonal planar) (1).glb": {
-    "title": "chem stru(trigonal planar) (1)",
-    "description": ""
-  },
-  "chem stru_linear_1 lp.glb": {
-    "title": "chem stru_linear_1 lp",
-    "description": ""
+    "title": "Bent(Trigonal Planar with one lone pair)",
+    "description": "It is an  Sp<sup>2</sup> hybridised molecule. \n has one lone pair and two bonding groups. \n Makes angle less than 120 degree. \n Steric Number:- 3 \n Examples- SO<sub>2</sub>  "
   },
   "chem stru_octahedral_square planar_2lp.glb": {
-    "title": "chem stru_octahedral_square planar_2lp",
-    "description": ""
+    "title": "Square Planar(Octahedral with two lone pair)",
+    "description": "It is an Sp<sup>3</sup>d<sup>2</sup> hybridised molecule. \n Steric number:- 6 \n Has two lone pairs and 4 bonding groups. \n Makes an angle of 90 degree with each other. \n Examples- XeF<sub>4</sub>."
   },
   "chem stru_octahedral_square pyramidal_1lp.glb": {
-    "title": "chem stru_octahedral_square pyramidal_1lp",
-    "description": ""
+    "title": "Square Pyramidal(Octahedral with one lone pair)",
+    "description": "It is an Sp<sup>3</sup>d<sup>2</sup> hybridised molecule. \n Steric number:- 6 \n Has one lone pairs and five bonding groups. \n Makes an angle of less than 90 degree with each other. \n Examples- XeOF<sub>4</sub>."
   },
   "chem stru_pbp_distorted octahedral_1lp.glb": {
-    "title": "chem stru_pbp_distorted octahedral_1lp",
-    "description": ""
+    "title": "Distorted Octahedral(Pentagonal Bipyraidal with one lone pair)",
+    "description": "It is an Sp<sup>3</sup>d<sup>3</sup> hybridised molecule. \n Steric number:- 7 \n Has One lone pair on Axial site and five bonding groups on other sites.\n Makes an angle less than 72 degree with equtorial bonds and less than 90 degree with axial bonds. \n Example- XeF<sub>6</sub>  "
   },
   "chem stru_tbp_linear_3lp.glb": {
-    "title": "chem stru_tbp_linear_3lp",
-    "description": ""
+    "title": "Linear(Trigonal Bipyramidal with three lone pair)",
+    "description": "It is an Sp<sup>3</sup>d hybridised molecule. \n Steric number:- 5 \n Has Three lone pairs and two bonding groups. \n Makes an angle of 180 degree with each other. \n Examples- XeF<sub>2</sub>."
   },
   "chem stru_tbp_see-saw_1lp.glb": {
-    "title": "chem stru_tbp_see-saw_1lp",
-    "description": ""
+    "title": "See-Saw(Trigonal Bipyramidal with 1 lone pair)",
+    "description": "It is an Sp<sup>3</sup>d hybridised molecule. \n Steric number:- 5 \n Has One lone pair and Four bonding groups. \n Makes an angle of less than 90 degree with Axial bonds and less than 120 degree with equtorial bonds. \n Examples- XeO<sub>2</sub>F<sub>2</sub>."
   },
   "chem stru_tbp_t shape_2lp.glb": {
-    "title": "chem stru_tbp_t shape_2lp",
-    "description": ""
+    "title": "T-Shape (Trigonal Bipyramidal with two lone pair)",
+    "description": "It is an Sp<sup>3</sup>d hybridised molecule. \n Steric number:- 5 \n Has Two lone pairs and Three bonding groups. \n Makes an angle of less than 90 degree with axial bonds. \n Examples- BrF<sub>3</sub>."
   },
   "linear.glb": {
-    "title": "linear",
-    "description": ""
+    "title": "Linear",
+    "description": "It is an Sp hybridised molecule. \n Has an angle of 180 degrees. \n Steric Number:- 2 \n Example - BeCl<sub>2</sub>"
   },
   "octa.glb": {
-    "title": "octa",
-    "description": ""
+    "title": "Octahedral",
+    "description": "It is Sp<sup>3</sup>d<sup>2</sup> hybridised molecule. \n Makes and angle of 90 degrees with each other. \n Steric Number:- 6.\n Example - SF<sub>6</sub>"
   },
   "Tetrahedral.glb": {
     "title": "Tetrahedral",
-    "description": ""
+    "description": "It is an Sp<sup>3</sup> Hybridised molecule. \n Making an angle of 109.5 degree. \n Steric number:- 4 \n Example - CH<sub>4</sub> "
   },
   "trigonal planar.glb": {
-    "title": "trigonal planar",
-    "description": ""
+    "title": "Trigonal Planar",
+    "description": "It is an Sp<sup>2</sup> Hybridised molecule. \n Makes an Angle of 120 degrees. \n Steric number:- 3 \n Example -  BF<sub>3</sub>, BH<sub>3</sub>"
   },
   "trigonal_planar_bent_1lp.glb": {
-    "title": "trigonal_planar_bent_1lp",
-    "description": ""
+    "title": "Bent(Trigonal Planar with one lone pair)",
+    "description":"It is an Sp<sup>2</sup> Hybridised molecule. \n Steric Number:- 3 \n Has one lone pair and two bonding groups.\n Makes an Angle of less than 120 degrees.\n Example -  O<sub>3</sub>"
   }
 }
