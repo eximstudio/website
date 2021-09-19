@@ -20,8 +20,11 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Genarate templates
+        run: yarn run template
+
       - name: Genarate Config
-        run: node genConfig.js
+        run: yarn run config
 
       - name: Build project
         run: yarn build
@@ -29,7 +32,7 @@ jobs:
       - name: Commit build files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "automated: generated `dist` for hosting"
+          commit_message: "automated: generated `build` for hosting"
           file_pattern: "."
           skip_dirty_check: false
           skip_fetch: false

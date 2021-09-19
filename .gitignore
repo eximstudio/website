@@ -3,6 +3,8 @@ beta
 
 public/models
 
+.env
+
 # Logs
 
 logs
