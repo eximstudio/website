@@ -1,18 +1,22 @@
 {
-  "eclipsed .glb": {
+  "eclipsed.glb": {
     "title": "eclipsed ",
-    "description": ""
+    "description": "",
+    "name": "eclipsed.glb"
   },
-  "nueclophilic sabstitution reaction  SN1.glb": {
+  "nueclophilic_sabstitution_reaction_SN1.glb": {
     "title": "nueclophilic sabstitution reaction  SN1",
-    "description": ""
+    "description": "",
+    "name": "nueclophilic_sabstitution_reaction_SN1.glb"
   },
-  "nueclophilic sabstitution reaction  SN2.glb": {
+  "nueclophilic_sabstitution_reaction_SN2.glb": {
     "title": "nueclophilic sabstitution reaction  SN2",
-    "description": ""
+    "description": "",
+    "name": "nueclophilic_sabstitution_reaction_SN2.glb"
   },
   "staggered.glb": {
     "title": "staggered",
-    "description": ""
+    "description": "",
+    "name": "staggered.glb"
   }
 }

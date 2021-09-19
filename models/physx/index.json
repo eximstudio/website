@@ -1,6 +1,7 @@
 {
-  "collision .glb": {
+  "collision.glb": {
     "title": "collision ",
-    "description": ""
+    "description": "",
+    "name": "collision.glb"
   }
 }

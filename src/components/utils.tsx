@@ -1,8 +1,34 @@
 import { ReactElement } from "react";
 import { Link } from "react-router-dom";
 
+let data: Results[];
+
+function setData(_data: Results[]) {
+  data = _data;
+}
+
+async function fetchData(): Promise<Results[]> {
+  const res: Results[] = await fetch("/models/config.json").then((res) =>
+    res.json()
+  );
+  data = res;
+  return data;
+}
+
+export { data, setData, fetchData };
+
+fetch("/models/config.json")
+  .then((res) => res.json())
+  .then((data) => {
+    setData(data);
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+
 type Results = {
-  uid: number;
+  id: string;
+  animate: boolean;
   title: string;
   url: string;
   description: string;
@@ -12,16 +38,8 @@ type Results = {
 const resultsOutput = (data: Results[]): ReactElement[] => {
   return data.map((res: Results): any => {
     return (
-      <Link
-        key={res.url}
-        to={res.url}
-        className="w-10/12 sm:w-1/2 md:w-1/3 flex flex-col p-3 align-middle"
-      >
-        <img
-          src={`https://via.placeholder.com/650`}
-          alt={res.title}
-          className="w-full h-full items-center"
-        />
+      <Link key={res.url} to={res.url}>
+        <img src={`https://via.placeholder.com/650`} alt={res.title} />
       </Link>
     );
   });
@@ -46,9 +64,9 @@ function ShowError({
         }}
         onClick={() => setIsShown(false)}
       >
-        <div className="alert-icon flex items-center bg-red-100 border-2 border-red-500 justify-center h-10 w-10 flex-shrink-0 rounded-full">
-          <span className="text-red-500">
-            <svg fill="currentColor" viewBox="0 0 20 20" className="h-6 w-6">
+        <div>
+          <span>
+            <svg fill="currentColor" viewBox="0 0 20 20">
               <path
                 fillRule="evenodd"
                 d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -57,13 +75,9 @@ function ShowError({
             </svg>
           </span>
         </div>
-        <div className="alert-content ml-4">
-          <div className="alert-title font-semibold text-lg text-red-800">
-            Error
-          </div>
-          <div className="alert-description text-sm text-red-600">
-            {message}
-          </div>
+        <div>
+          <div>Error</div>
+          <div>{message}</div>
         </div>
       </div>
     </>
@@ -74,7 +88,7 @@ async function shake(element?: HTMLElement): Promise<void> {
   if (element) {
     if (!element.classList.contains("shake")) return;
   }
-  for (let i of [
+  for (const i of [
     "translate(-2.5%, -2.5%)",
     "translate(2.5%, 2.5%)",
     "translate(-2.5%, 2.5%)",
@@ -101,5 +115,47 @@ async function shake(element?: HTMLElement): Promise<void> {
   }, 30);
 }
 
+const events = new Map<string, boolean>();
+
+function addEvent({
+  name,
+  callback,
+}: {
+  name: string;
+  callback: (e: Event) => void;
+}): void {
+  if (!events.has(name)) {
+    events.set(name, true);
+    window.addEventListener(name, callback);
+  } else return;
+}
+
+export async function resolveURL(
+  id: string
+): Promise<[string, boolean] | null> {
+  if (!data?.length) await fetchData();
+  const res = data.find((res) => res.id === id);
+  if (!res) return null;
+  return [res!.url, res!.animate];
+}
+
+function getThemeDark(): boolean {
+  if (
+    localStorage.dark === "true" ||
+    (!("dark" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+export function toggleTheme(): void {
+  const dark = getThemeDark();
+  document.documentElement.classList.toggle("dark-theme", !dark);
+  localStorage.setItem("dark", !dark ? "true" : "false");
+}
+
 export type { Results };
-export { resultsOutput, ShowError, shake };
+export { resultsOutput, ShowError, shake, addEvent };

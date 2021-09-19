@@ -1,10 +1,12 @@
 {
-  "eclipsed .gltf": {
+  "eclipsed.gltf": {
     "title": "eclipsed ",
-    "description": ""
+    "description": "",
+    "name": "eclipsed.gltf"
   },
   "staggered.gltf": {
     "title": "staggered",
-    "description": ""
+    "description": "",
+    "name": "staggered.gltf"
   }
 }

@@ -9,8 +9,8 @@ import { useHistory, useLocation } from "react-router-dom";
 import { Results, resultsOutput, ShowError } from "./utils";
 
 let data: null | Results[] = null,
-  search = new Map<string, number[]>(),
-  lastError: any;
+  lastError: number;
+const search = new Map<string, number[]>();
 
 async function fetchData(
   throwError: Dispatch<SetStateAction<string>>
@@ -50,7 +50,7 @@ export default function Search(): ReactElement {
     setMessage(message);
     setIsShown(true);
     clearTimeout(lastError);
-    lastError = setTimeout(() => setIsShown(false), 5000);
+    lastError = setTimeout(() => setIsShown(false), 5000) as unknown as number;
   }
   const [search, setSearch] = useState<Element | ReactElement>(
     <h2
@@ -84,7 +84,6 @@ export default function Search(): ReactElement {
   return (
     <div>
       <input
-        className="w-3/6 p-2 text-black outline-none border-b-2 border-gray-600 h-20 text-2xl font-sans focus:border-collapse mt-4"
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
@@ -99,9 +98,7 @@ export default function Search(): ReactElement {
         }}
       />
       <ShowError isShown={isShown} message={error} setIsShown={setIsShown} />
-      <div className="grid gap-3 mb-6 md:grid-cols-2 lg:grid-cols-4 justify-center container">
-        {search}
-      </div>
+      <div>{search}</div>
     </div>
   );
 }

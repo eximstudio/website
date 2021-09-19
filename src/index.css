@@ -1,10 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
-  transition: 0.4s;
   outline: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {

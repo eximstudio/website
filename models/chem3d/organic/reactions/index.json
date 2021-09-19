@@ -1,10 +1,12 @@
 {
   "SN1.gltf": {
     "title": "SN1",
-    "description": ""
+    "description": "",
+    "name": "SN1.gltf"
   },
   "SN2.gltf": {
     "title": "SN2",
-    "description": ""
+    "description": "",
+    "name": "SN2.gltf"
   }
 }

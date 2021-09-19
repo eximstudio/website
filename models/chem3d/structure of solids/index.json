@@ -1,42 +1,52 @@
 {
   "BCC.glb": {
     "title": "BCC",
-    "description": ""
+    "description": "",
+    "name": "BCC.glb"
   },
   "CaF2.glb": {
     "title": "CaF2",
-    "description": ""
+    "description": "",
+    "name": "CaF2.glb"
   },
   "CsCl.glb": {
     "title": "CsCl",
-    "description": ""
+    "description": "",
+    "name": "CsCl.glb"
   },
   "ECC.glb": {
     "title": "ECC",
-    "description": ""
+    "description": "",
+    "name": "ECC.glb"
   },
   "EdgeCC.glb": {
     "title": "EdgeCC",
-    "description": ""
+    "description": "",
+    "name": "EdgeCC.glb"
   },
   "FCC.glb": {
     "title": "FCC",
-    "description": ""
+    "description": "",
+    "name": "FCC.glb"
   },
   "Hex.glb": {
     "title": "Hex",
-    "description": ""
+    "description": "",
+    "name": "Hex.glb"
   },
   "Nacl.glb": {
     "title": "Nacl",
-    "description": ""
+    "description": "",
+    "name": "Nacl.glb"
   },
   "SC.glb": {
     "title": "SC",
-    "description": ""
+    "description": "",
+    "name": "SC.glb"
   },
   "ZnS.glb": {
     "title": "ZnS",
-    "description": ""
+    "description": "",
+    "name": "ZnS.glb"
   }
 }

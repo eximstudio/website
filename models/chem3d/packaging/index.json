@@ -1,30 +1,37 @@
 {
   "1-D.glb": {
     "title": "1-D",
-    "description": ""
+    "description": "",
+    "name": "1-D.glb"
   },
-  "2-D[AAAA(square packaging)].glb": {
+  "2-D[AAAA(square_packaging)].glb": {
     "title": "2-D[AAAA(square packaging)]",
-    "description": ""
+    "description": "",
+    "name": "2-D[AAAA(square_packaging)].glb"
   },
-  "2-D[ABAB(square packaging)] .glb": {
+  "2-D[ABAB(square_packaging)].glb": {
     "title": "2-D[ABAB(square packaging)] ",
-    "description": ""
+    "description": "",
+    "name": "2-D[ABAB(square_packaging)].glb"
   },
-  "3-D[hexagonal(ABA)] extended .glb": {
+  "3-D[hexagonal(ABA)]_extended.glb": {
     "title": "3-D[hexagonal(ABA)] extended ",
-    "description": ""
+    "description": "",
+    "name": "3-D[hexagonal(ABA)]_extended.glb"
   },
   "3-D[hexagonal(ABA)].glb": {
     "title": "3-D[hexagonal(ABA)]",
-    "description": ""
+    "description": "",
+    "name": "3-D[hexagonal(ABA)].glb"
   },
-  "3-D[hexagonal(ABCABC)] extended .glb": {
+  "3-D[hexagonal(ABCABC)]_extended.glb": {
     "title": "3-D[hexagonal(ABCABC)] extended ",
-    "description": ""
+    "description": "",
+    "name": "3-D[hexagonal(ABCABC)]_extended.glb"
   },
   "3-D[hexagonal(ABCABC)].glb": {
     "title": "3-D[hexagonal(ABCABC)]",
-    "description": ""
+    "description": "",
+    "name": "3-D[hexagonal(ABCABC)].glb"
   }
 }
