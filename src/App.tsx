@@ -1,9 +1,12 @@
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Route from "./routes";
 
 function App() {
   return (
-    <Route />
+    <Router>
+      <Route />
+    </Router>
   );
 }
 
