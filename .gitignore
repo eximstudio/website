@@ -1,7 +1,6 @@
 #Subdomain
 beta
 
-public/models
 
 # Logs
 
@@ -12,6 +11,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log\*
 .vs
+build
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 
