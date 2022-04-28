@@ -3,6 +3,7 @@ name: Build
 on:
   push:
     branches: [alpha]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -19,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: yarn
-        
+
       - name: Run Lint
         run: yarn lint
 
@@ -30,3 +31,10 @@ jobs:
         run: yarn build
 
       - name: Push to Alpha live✨
+        uses: SamKirkland/FTP-Deploy-Action@4
+        with:
+          server: ${{ secrets.ftp_server }}
+          port: ${{ secrets.ftp_port }}
+          username: ${{ secrets.alpha_ftp_user }}
+          password: ${{ secrets.alpha_ftp_pass }}
+          local-dir: ./build/

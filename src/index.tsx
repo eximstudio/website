@@ -3,17 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "overlayscrollbars/css/OverlayScrollbars.css";
 
-if (
-  localStorage?.theme === "dark" ||
-  (!("theme" in localStorage) &&
-    window.matchMedia?.("(prefers-color-scheme: dark)")?.matches)
-) {
-  document.documentElement.classList.add("dark");
-} else {
-  document.documentElement.classList.remove("dark");
-}
+// if (
+//   localStorage?.theme === "dark" ||
+//   (!("theme" in localStorage) &&
+//     window.matchMedia?.("(prefers-color-scheme: dark)")?.matches)
+// ) {
+// } else {
+// }
 
 ReactDOM.render(
   <React.StrictMode>
