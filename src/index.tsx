@@ -13,12 +13,12 @@ import reportWebVitals from "./reportWebVitals";
 // }
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-const container = createRoot(document.getElementById("root")!)
+const container = createRoot(document.getElementById("root")!);
 
 container.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
