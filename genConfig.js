@@ -21,8 +21,8 @@ function manageDir(dir) {
     );
   });
 }
-manageDir(path.join(__dirname, "models"));
+manageDir(path.join(__dirname, "public/models"));
 fs.writeFileSync(
-  path.join("models", "config.json"),
+  path.join("public/models", "config.json"),
   JSON.stringify(data, null, 2)
 );

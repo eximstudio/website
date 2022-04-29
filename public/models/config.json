@@ -1,268 +1,260 @@
 [
   {
-    "title": "Bent (Tetrahedral with 2 lone pair)",
-    "description": "",
-    "url": "models/chem3d/geometry/Bent (Tetrahedral with 2 lone pair).glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Bent (Tetrahedral with two lone pair)",
+    "description": "It is an Sp<sup>3</sup> hybridised molecule. \n Has two lone pairs and Bonding groups each. \n Steric number:- 4. \n Makes an angle less than 109.5 degree(~105). \n Example - H<sub>2</sub>O",
+    "url": "public/models/chem3d/geometry/Bent (Tetrahedral with 2 lone pair).glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru(pentagonal bi piramidal)",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru(pentagonal bi piramidal).glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Pentagonal Bipyramidal",
+    "description": "It is an Sp<sup>3</sup>d<sup>3</sup> hybridised molecule. \n Steric Number:- 7 \n Makes an angle of 72 degrees with equtorial bonds and 90 degree with Axial bonds. \n Example - IF<sub>7</sub>",
+    "url": "public/models/chem3d/geometry/chem stru(pentagonal bi piramidal).glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru(tbp)",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru(tbp).glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Trigonal Bipyramidal",
+    "description": "It is an Sp<sup>3</sup>d hybridised molecule.\n Steric Number - 5 \n Has two types of bonds Equatorial and Axial bond.\n Bond length of Axial bonds is greater than Equatorial bonds. \n Bond Angle between Axial bond is 180 degree, where as 120 degree for equtorial bonds. Axial and Equatorial bonds are perpendicular to each other.\n Steric Number:- 5\n Example - PCl<sub>5</sub>. ",
+    "url": "public/models/chem3d/geometry/chem stru(tbp).glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru(trigonal planar) (1)",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru(trigonal planar) (1).glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Bent(Trigonal Planar with one lone pair)",
+    "description": "It is an  Sp<sup>2</sup> hybridised molecule. \n has one lone pair and two bonding groups. \n Makes angle less than 120 degree. \n Steric Number:- 3 \n Examples- SO<sub>2</sub>  ",
+    "url": "public/models/chem3d/geometry/chem stru(trigonal planar) (1).glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru_linear_1 lp",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru_linear_1 lp.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Square Planar(Octahedral with two lone pair)",
+    "description": "It is an Sp<sup>3</sup>d<sup>2</sup> hybridised molecule. \n Steric number:- 6 \n Has two lone pairs and 4 bonding groups. \n Makes an angle of 90 degree with each other. \n Examples- XeF<sub>4</sub>.",
+    "url": "public/models/chem3d/geometry/chem stru_octahedral_square planar_2lp.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru_octahedral_square planar_2lp",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru_octahedral_square planar_2lp.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Square Pyramidal(Octahedral with one lone pair)",
+    "description": "It is an Sp<sup>3</sup>d<sup>2</sup> hybridised molecule. \n Steric number:- 6 \n Has one lone pairs and five bonding groups. \n Makes an angle of less than 90 degree with each other. \n Examples- XeOF<sub>4</sub>.",
+    "url": "public/models/chem3d/geometry/chem stru_octahedral_square pyramidal_1lp.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru_octahedral_square pyramidal_1lp",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru_octahedral_square pyramidal_1lp.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Distorted Octahedral(Pentagonal Bipyraidal with one lone pair)",
+    "description": "It is an Sp<sup>3</sup>d<sup>3</sup> hybridised molecule. \n Steric number:- 7 \n Has One lone pair on Axial site and five bonding groups on other sites.\n Makes an angle less than 72 degree with equtorial bonds and less than 90 degree with axial bonds. \n Example- XeF<sub>6</sub>  ",
+    "url": "public/models/chem3d/geometry/chem stru_pbp_distorted octahedral_1lp.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru_pbp_distorted octahedral_1lp",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru_pbp_distorted octahedral_1lp.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Linear(Trigonal Bipyramidal with three lone pair)",
+    "description": "It is an Sp<sup>3</sup>d hybridised molecule. \n Steric number:- 5 \n Has Three lone pairs and two bonding groups. \n Makes an angle of 180 degree with each other. \n Examples- XeF<sub>2</sub>.",
+    "url": "public/models/chem3d/geometry/chem stru_tbp_linear_3lp.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru_tbp_linear_3lp",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru_tbp_linear_3lp.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "See-Saw(Trigonal Bipyramidal with 1 lone pair)",
+    "description": "It is an Sp<sup>3</sup>d hybridised molecule. \n Steric number:- 5 \n Has One lone pair and Four bonding groups. \n Makes an angle of less than 90 degree with Axial bonds and less than 120 degree with equtorial bonds. \n Examples- XeO<sub>2</sub>F<sub>2</sub>.",
+    "url": "public/models/chem3d/geometry/chem stru_tbp_see-saw_1lp.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru_tbp_see-saw_1lp",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru_tbp_see-saw_1lp.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "T-Shape (Trigonal Bipyramidal with two lone pair)",
+    "description": "It is an Sp<sup>3</sup>d hybridised molecule. \n Steric number:- 5 \n Has Two lone pairs and Three bonding groups. \n Makes an angle of less than 90 degree with axial bonds. \n Examples- BrF<sub>3</sub>.",
+    "url": "public/models/chem3d/geometry/chem stru_tbp_t shape_2lp.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "chem stru_tbp_t shape_2lp",
-    "description": "",
-    "url": "models/chem3d/geometry/chem stru_tbp_t shape_2lp.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Linear",
+    "description": "It is an Sp hybridised molecule. \n Has an angle of 180 degrees. \n Steric Number:- 2 \n Example - BeCl<sub>2</sub>",
+    "url": "public/models/chem3d/geometry/linear.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "linear",
-    "description": "",
-    "url": "models/chem3d/geometry/linear.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
-  },
-  {
-    "title": "octa",
-    "description": "",
-    "url": "models/chem3d/geometry/octa.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Octahedral",
+    "description": "It is Sp<sup>3</sup>d<sup>2</sup> hybridised molecule. \n Makes and angle of 90 degrees with each other. \n Steric Number:- 6.\n Example - SF<sub>6</sub>",
+    "url": "public/models/chem3d/geometry/octa.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
     "title": "Tetrahedral",
-    "description": "",
-    "url": "models/chem3d/geometry/Tetrahedral.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "description": "It is an Sp<sup>3</sup> Hybridised molecule. \n Making an angle of 109.5 degree. \n Steric number:- 4 \n Example - CH<sub>4</sub> ",
+    "url": "public/models/chem3d/geometry/Tetrahedral.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "trigonal planar",
-    "description": "",
-    "url": "models/chem3d/geometry/trigonal planar.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Trigonal Planar",
+    "description": "It is an Sp<sup>2</sup> Hybridised molecule. \n Makes an Angle of 120 degrees. \n Steric number:- 3 \n Example -  BF<sub>3</sub>, BH<sub>3</sub>",
+    "url": "public/models/chem3d/geometry/trigonal planar.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "trigonal_planar_bent_1lp",
-    "description": "",
-    "url": "models/chem3d/geometry/trigonal_planar_bent_1lp.glb",
-    "tags": ["website", "website", "models", "chem3d", "geometry"]
+    "title": "Bent(Trigonal Planar with one lone pair)",
+    "description": "It is an Sp<sup>2</sup> Hybridised molecule. \n Steric Number:- 3 \n Has one lone pair and two bonding groups.\n Makes an Angle of less than 120 degrees.\n Example -  O<sub>3</sub>",
+    "url": "public/models/chem3d/geometry/trigonal_planar_bent_1lp.glb",
+    "tags": ["models", "chem3d", "geometry"]
   },
   {
-    "title": "eclipsed ",
-    "description": "",
-    "url": "models/chem3d/organic/eclipsed and staggerd/eclipsed .gltf",
-    "tags": [
-      "website",
-      "website",
-      "models",
-      "chem3d",
-      "organic",
-      "eclipsed and staggerd"
-    ]
+    "title": "Eclipsed ",
+    "description": "It is an Saw-Horse projection. \n Also known as conformational isomers. \n Dihedral angle is 0 degree. which makes it less stable than Staggerd form, because of more replusion between the molecule.",
+    "url": "public/models/chem3d/organic/eclipsed and staggerd/eclipsed .gltf",
+    "tags": ["models", "chem3d", "organic", "eclipsed and staggerd"]
   },
   {
-    "title": "staggered",
-    "description": "",
-    "url": "models/chem3d/organic/eclipsed and staggerd/staggered.gltf",
-    "tags": [
-      "website",
-      "website",
-      "models",
-      "chem3d",
-      "organic",
-      "eclipsed and staggerd"
-    ]
+    "title": "Staggered",
+    "description": "It is an Saw-Horse projection.\n Also known as conformational isomers. \n Dihedral angle is 60 degree. which makes it more stable than Ecipsed form, because of less replusion betweem the molecule.",
+    "url": "public/models/chem3d/organic/eclipsed and staggerd/staggered.gltf",
+    "tags": ["models", "chem3d", "organic", "eclipsed and staggerd"]
   },
   {
     "title": "eclipsed ",
     "description": "",
-    "url": "models/chem3d/organic/eclipsed .glb",
-    "tags": ["website", "website", "models", "chem3d", "organic"]
+    "url": "public/models/chem3d/organic/eclipsed .glb",
+    "tags": ["models", "chem3d", "organic"]
   },
   {
     "title": "nueclophilic sabstitution reaction  SN1",
     "description": "",
-    "url": "models/chem3d/organic/nueclophilic sabstitution reaction  SN1.glb",
-    "tags": ["website", "website", "models", "chem3d", "organic"]
+    "url": "public/models/chem3d/organic/nueclophilic sabstitution reaction  SN1.glb",
+    "tags": ["models", "chem3d", "organic"]
   },
   {
     "title": "nueclophilic sabstitution reaction  SN2",
     "description": "",
-    "url": "models/chem3d/organic/nueclophilic sabstitution reaction  SN2.glb",
-    "tags": ["website", "website", "models", "chem3d", "organic"]
+    "url": "public/models/chem3d/organic/nueclophilic sabstitution reaction  SN2.glb",
+    "tags": ["models", "chem3d", "organic"]
   },
   {
     "title": "staggered",
     "description": "",
-    "url": "models/chem3d/organic/staggered.glb",
-    "tags": ["website", "website", "models", "chem3d", "organic"]
+    "url": "public/models/chem3d/organic/staggered.glb",
+    "tags": ["models", "chem3d", "organic"]
   },
   {
-    "title": "SN1",
-    "description": "",
-    "url": "models/chem3d/organic/reactions/SN1.gltf",
-    "tags": ["website", "website", "models", "chem3d", "organic", "reactions"]
+    "title": "SN<sub>1</sub> Reaction",
+    "description": "-<p style:'color:pink;'>Pink- Nucleophile</p>\n -<p style:'color:Green;'>Green- Leaving Group</p>\n -SN<sub>1</sub> reactions is Unimolecular and first order reaction. Hence, the rate only depends upon the conc of teh substrate. \n -It proceeds through an intermediate carbocation.\n -It involves two step mechanism, \n -The first step includes the formation of carbocation and is slow step, therefore determines the rate of the reaction. \n -The second step involves the attack of Nucleophile on the substrate. \n -If the compound is Chiral then the proccess of racemization is accompanied.    ",
+    "url": "public/models/chem3d/organic/reactions/Substitution reaction/SN1.glb",
+    "tags": [
+      "models",
+      "chem3d",
+      "organic",
+      "reactions",
+      "Substitution reaction"
+    ]
   },
   {
-    "title": "SN2",
-    "description": "",
-    "url": "models/chem3d/organic/reactions/SN2.gltf",
-    "tags": ["website", "website", "models", "chem3d", "organic", "reactions"]
+    "title": "SN<sub>2</sub> Reaction",
+    "description": "-<p style:'color:pink;'>Pink- Leaving Group</p>\n -<p style:'color:Red;'>Red- Nucleophile or Hydroxy ion</p>\n -SN<sub>2</sub> reactions is bimolecular and second order reaction. Therefore, the ate of teh reaction depends on both nueclophile and the substrate. \n -It proceeds through the formation of transition state. \n -It involves only one step in its mechanism. \n- Therefore no carbocation is formed. \n -If the molecule is chiral it gives inversion of sterochemistry at teh reaction center. \n -Steric effect is particularly important in SN<sub>2</sub> reaction. ",
+    "url": "public/models/chem3d/organic/reactions/Substitution reaction/SN2.glb",
+    "tags": [
+      "models",
+      "chem3d",
+      "organic",
+      "reactions",
+      "Substitution reaction"
+    ]
   },
   {
     "title": "1-D",
     "description": "",
-    "url": "models/chem3d/packaging/1-D.glb",
-    "tags": ["website", "website", "models", "chem3d", "packaging"]
+    "url": "public/models/chem3d/packaging/1-D.glb",
+    "tags": ["models", "chem3d", "packaging"]
   },
   {
     "title": "2-D[AAAA(square packaging)]",
     "description": "",
-    "url": "models/chem3d/packaging/2-D[AAAA(square packaging)].glb",
-    "tags": ["website", "website", "models", "chem3d", "packaging"]
+    "url": "public/models/chem3d/packaging/2-D[AAAA(square packaging)].glb",
+    "tags": ["models", "chem3d", "packaging"]
   },
   {
     "title": "2-D[ABAB(square packaging)] ",
     "description": "",
-    "url": "models/chem3d/packaging/2-D[ABAB(square packaging)] .glb",
-    "tags": ["website", "website", "models", "chem3d", "packaging"]
+    "url": "public/models/chem3d/packaging/2-D[ABAB(square packaging)] .glb",
+    "tags": ["models", "chem3d", "packaging"]
   },
   {
     "title": "3-D[hexagonal(ABA)] extended ",
     "description": "",
-    "url": "models/chem3d/packaging/3-D[hexagonal(ABA)] extended .glb",
-    "tags": ["website", "website", "models", "chem3d", "packaging"]
+    "url": "public/models/chem3d/packaging/3-D[hexagonal(ABA)] extended .glb",
+    "tags": ["models", "chem3d", "packaging"]
   },
   {
     "title": "3-D[hexagonal(ABA)]",
     "description": "",
-    "url": "models/chem3d/packaging/3-D[hexagonal(ABA)].glb",
-    "tags": ["website", "website", "models", "chem3d", "packaging"]
+    "url": "public/models/chem3d/packaging/3-D[hexagonal(ABA)].glb",
+    "tags": ["models", "chem3d", "packaging"]
   },
   {
     "title": "3-D[hexagonal(ABCABC)] extended ",
     "description": "",
-    "url": "models/chem3d/packaging/3-D[hexagonal(ABCABC)] extended .glb",
-    "tags": ["website", "website", "models", "chem3d", "packaging"]
+    "url": "public/models/chem3d/packaging/3-D[hexagonal(ABCABC)] extended .glb",
+    "tags": ["models", "chem3d", "packaging"]
   },
   {
     "title": "3-D[hexagonal(ABCABC)]",
     "description": "",
-    "url": "models/chem3d/packaging/3-D[hexagonal(ABCABC)].glb",
-    "tags": ["website", "website", "models", "chem3d", "packaging"]
+    "url": "public/models/chem3d/packaging/3-D[hexagonal(ABCABC)].glb",
+    "tags": ["models", "chem3d", "packaging"]
   },
   {
-    "title": "BCC",
-    "description": "",
-    "url": "models/chem3d/structure of solids/BCC.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "title": "Body Centered Cubic",
+    "description": "Atoms/ions are present at the corner and body center. \n Therfore Rank of Unit cell(Z) is 2. ",
+    "url": "public/models/chem3d/structure of solids/BCC.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
-    "title": "CaF2",
-    "description": "",
-    "url": "models/chem3d/structure of solids/CaF2.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "title": "Calcium fluoride(CaF<sub>2<sub>)",
+    "description": "Also known as fluorite structure, \n Ca<sup>2+</sup> occupies Face centered cubic/Cubic closed pack lattice. \n F<sup>-</sup> occupies Tetrahedral voids. \n Therefore, in a Unit cell there are 4 ions of Ca<sup>2+</sup> and 8 ions of F<sup>-</sup> \n So, in total there are 4 molecules formed of CaF<sub>2</sub>. ",
+    "url": "public/models/chem3d/structure of solids/CaF2.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
     "title": "CsCl",
-    "description": "",
-    "url": "models/chem3d/structure of solids/CsCl.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "description": "Cs<sup>+</sup> occupies Cubical voids. \n Cl<sup>-<sup> occupies Simple cubis lattice. \n Therefore there are only one ion each in Unit Cell. Hence only 1 molecule of CsCl is formed per unit cell.",
+    "url": "public/models/chem3d/structure of solids/CsCl.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
-    "title": "ECC",
-    "description": "",
-    "url": "models/chem3d/structure of solids/ECC.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "title": "End Centered Cubic",
+    "description": "Atoms/Ions are present at the corners and center of alternate faces. \n Therfore, Rank of Unit cell(Z) is 2. ",
+    "url": "public/models/chem3d/structure of solids/ECC.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
     "title": "EdgeCC",
-    "description": "",
-    "url": "models/chem3d/structure of solids/EdgeCC.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "description": "Atoms/Ions are present at the corners and Center of each Edges. \n Therefore, Rank of Unit cell(Z) is 7.",
+    "url": "public/models/chem3d/structure of solids/EdgeCC.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
     "title": "FCC",
-    "description": "",
-    "url": "models/chem3d/structure of solids/FCC.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "description": "Atoms/Ions are present at each corners and center of each Faces. \n Therefore Rank of Unit cell(Z) is 4.",
+    "url": "public/models/chem3d/structure of solids/FCC.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
-    "title": "Hex",
-    "description": "",
-    "url": "models/chem3d/structure of solids/Hex.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "title": "Hexagonal closed packed",
+    "description": "Atoms/Ions are present at each corners, opposite Hexagon Face and 3 Atoms/ions at the body center. \n Therfore, Rank of the Unit cell is 6",
+    "url": "public/models/chem3d/structure of solids/Hex.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
     "title": "Nacl",
-    "description": "",
-    "url": "models/chem3d/structure of solids/Nacl.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "description": "Na<sup>+</sup> occupies octahedral voids. \n Cl<sup>-</sup> occupies Cubic closed packed/Face centerd cubic lattice. \n So, there are 4 ions each in one Unit cell. Hence 4 molecules of Nacl is formed per Unit cell.",
+    "url": "public/models/chem3d/structure of solids/Nacl.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
     "title": "SC",
-    "description": "",
-    "url": "models/chem3d/structure of solids/SC.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "description": "Atoms/Ions are only present at each Corners of teh unit cell. \n Therefore, Rank of Unit cell is 1. ",
+    "url": "public/models/chem3d/structure of solids/SC.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
     "title": "ZnS",
-    "description": "",
-    "url": "models/chem3d/structure of solids/ZnS.glb",
-    "tags": ["website", "website", "models", "chem3d", "structure of solids"]
+    "description": "Zn<sup>2+</sup> occupies half of tetrahedral voids. \n S<sup>2-</sup> occupies Face centered cubic/Cubic closed packed lattice. \n Therefore, there are 4 ions each placed in one Unit Cell. \n Hence, forms a total of 4 molecules of ZnS per Unit cell.",
+    "url": "public/models/chem3d/structure of solids/ZnS.glb",
+    "tags": ["models", "chem3d", "structure of solids"]
   },
   {
     "title": "collision ",
     "description": "",
-    "url": "models/physx/collision .glb",
-    "tags": ["website", "website", "models", "physx"]
+    "url": "public/models/physx/collision .glb",
+    "tags": ["models", "physx"]
   }
 ]
