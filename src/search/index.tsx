@@ -1,8 +1,9 @@
 import { Outlet } from "react-router-dom";
 
-export default function Search({ query }: { query?: string }) {
+export default function Search() {
   return (
     <>
+      Search
       <Outlet />
     </>
   );

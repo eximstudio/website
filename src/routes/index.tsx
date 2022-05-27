@@ -1,14 +1,21 @@
 import { useRoutes } from "react-router-dom";
 import _404 from "../common/404";
+import Base from "../common/base";
 import Home from "../home";
+import Chem from "../pages/chem";
+import Phy from "../pages/phy";
 import Search from "../search";
 
 export default function Route() {
   return useRoutes([
     {
       path: "/",
-      element: <Home />,
+      element: <Base />,
       children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
         {
           path: "search",
           element: <Search />,
@@ -19,11 +26,19 @@ export default function Route() {
             },
           ],
         },
+        {
+          path: "chem",
+          element: <Chem />
+        }, {
+          path: "phy",
+          element: <Phy />
+        }
       ],
     },
     {
       path: "*",
       element: <_404 />,
     },
+
   ]);
 }
