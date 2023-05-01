@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PhysiX Beta</title>
+    <link rel="stylesheet" href="../css/mob.css">
+    <meta name="theme-color" content="#111">
+    <link rel="shortcut icon" href="../../img/favicon.jpg" type="image/jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <style>
+      h1{
+        color: #fff;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 70px;
+        font-family: 'Roboto Slab', serif;
+        -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+      }
+      h2{
+        color: #049ef4;
+        text-decoration:none;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+      }
+      .sup{
+        font-size:30px;
+        -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers*/
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+      }
+      @media screen and (max-width: 600px) {
+        .sup{
+          font-size:18px;
+        }
+      }
+    </style>
+          <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body style="background:#111">
+    <header>
+
+      <div class="topnav" id="myTopnav">
+        <a href='/Donate'>Donate</a>
+        <a href="/subscribe" id="sub">subscribe</a>
+        <a href="/team" id="team" >About</a>
+        <a href="/compute/" id="math" >Numerus</a>
+        <a href="/PhysiX/" id="phy" >PhysiX</a>
+        <a href="/Chem3D/" id="chem" >Chem3D</a>
+        <a href="/">Home</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </header>
+
+   <h1>PhysiX <sup class="sup">Beta</sup></h1>
+   <a href="ripples"><h2>Ripples on the surface of water</h2></a> 
+
+   <div id="particles-js" style="z-index:-1;height:92vh"></div>
+
+   <!-- scripts -->
+   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+   <script src="../js/app.js"></script>
+    <script>
+        function border() {
+          var x = document.getElementById("phy");
+          x.className = "active";
+        //  document.getElementById("particles-js").style.position = "fixed";
+        }
+        border();
+   function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+   }
+    </script>
+  </body>
+</html>
