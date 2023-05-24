@@ -27,7 +27,7 @@ jobs:
         run: yarn build
 
       - name: Make a zip of build Folder
-        run: zip -r ./build build.zip
+        run: zip -r build.zip build
 
       - name: Deploy to Netlify
         run: |
