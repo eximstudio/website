@@ -34,4 +34,4 @@ jobs:
           curl -H "Content-Type: application/zip" \
           -H "Authorization: Bearer ${{ secrets.NETLIFY_TOKEN }}" \
           --data-binary "build.zip" \
-          https://api.netlify.com/api/v1/sites/espreview.netlify.app/deploys
+          https://api.netlify.com/api/v1/sites
