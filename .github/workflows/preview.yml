@@ -1,0 +1,37 @@
+name: Preview
+
+on:
+  push:
+    branches: [alpha-new]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Install Node v18
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Run Lint
+        run: yarn lint
+
+      - name: Build project
+        run: yarn build
+
+      - name: Make a zip of build Folder
+        run: zip -r ./build build.zip
+
+      - name: Deploy to Netlify
+        run: |
+          curl -H "Content-Type: application/zip" \
+          -H "Authorization: Bearer ${{ secrets.NETLIFY_TOKEN }}" \
+          --data-binary "build.zip" \
+          https://api.netlify.com/api/v1/sites/espreview.netlify.app/deploys
