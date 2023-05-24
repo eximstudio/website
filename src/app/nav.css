@@ -1,0 +1,35 @@
+.nav-btn {
+    opacity: .4;
+    cursor: pointer;
+    margin: 10px 5px;
+    padding: 0;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    position: relative;
+    text-align: center;
+    transition: .1s ease;
+    font-family: var(--font-roboto-mono);
+    font-weight: 200;
+}
+
+.nav-btn:hover {
+    opacity: 1;
+}
+
+.nav-btn.active {
+    font-weight: 300;
+}
+
+.nav-search {
+    width: min(35rem, 80vw);
+    /* transition-delay: .2s; */
+    animation-delay: 1s;
+}
+
+.nav-search input {
+    font-family: var(--font-roboto-mono);
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 100;
+}
