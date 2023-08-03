@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        @apply font-roboto;
+    }
+
+
+    @font-face {
+        font-family: 'ShadowHand';
+        src: url('//2ttf.com/webfont/UIswCwhB/webfont.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Skyscapers';
+        src: url('//2ttf.com/webfont/6IF8GLA3aiM/webfont.ttf') format('truetype');
+    }
+
+    .es-h1 {
+        @apply text-4xl lg:text-6xl relative lg:w-8/12 w-10/12 text-center my-12 left-1/2 -translate-x-1/2;
+    }
+
+    .es-h2 {
+        @apply text-2xl lg:text-4xl relative lg:w-8/12 w-10/12 text-left my-6 lg:my-8;
+    }
+
+    .es-shadowhand {
+        font-family: 'ShadowHand';
+    }
+
+    .es-skyscapers {
+        font-family: 'Skyscapers';
+    }
+}

@@ -1,0 +1,25 @@
+@keyframes vibrate {
+    0% {
+        transform: none;
+    }
+
+    20% {
+        transform: translate(-6px, 6px);
+    }
+
+    40% {
+        transform: translate(-6px, -6px);
+    }
+
+    60% {
+        transform: translate(6px, 6px);
+    }
+
+    80% {
+        transform: translate(6px, -6px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
